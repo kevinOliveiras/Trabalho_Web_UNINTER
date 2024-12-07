@@ -1,0 +1,119 @@
+/* Estilo para os títulos h1 e h2 */
+h1, h2{
+    color: #f7f7c6; /* Define a cor do texto para um tom de amarelo claro */
+}
+
+/* Estilo para os parágrafos */
+p{
+    color: #e8ddbd; /* Define a cor do texto para um tom de bege claro */
+}
+
+/* Estilo para o body da página */
+body{
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    display: flex; /* Define o layout como flexbox */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    flex-direction: column; /* Organiza os itens em uma coluna */
+    background-color: #130f1f; /* Define um fundo escuro */
+    color: white; /* Define a cor do texto como branco */
+}
+
+/* Estilo para o header (cabeçalho) */
+header{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    background-color: #3a0707; /* Define o fundo do cabeçalho como vermelho escuro */
+    width: 100%; /* Largura total */
+    max-width: 950px; /* Largura máxima do cabeçalho */
+    height: 200px; /* Altura fixa para o cabeçalho */
+    margin-top: 108px; /* Espaçamento superior */
+    gap: 50px; /* Espaço entre os itens dentro do cabeçalho */
+    border-radius: 16px 16px 0px 0px; /* Arredonda os cantos superiores */
+}
+
+/* Estilo para a classe .textHeader */
+.textHeader{
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+    margin-bottom: 0; /* Remove a margem inferior */
+    display: inline; /* Torna o display inline */
+}
+
+/* Estilo para a classe .sobreMim */
+.sobreMim{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+/* Estilo para a classe .textSobremim */
+.textSobremim{
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+}
+
+/* Estilo para a classe .contato */
+.contato{
+    display: flex; 
+    align-items: center; 
+}
+
+/* Estilo para o formulário dentro da classe .contato */
+.contato form{
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+    margin-left: 50px; /* Espaçamento à esquerda */
+}
+
+/* Estilo para o footer (rodapé) */
+footer{
+    display: flex; 
+    align-items: start; /* Alinha os itens no topo */
+    justify-content: center; 
+    background-color: #3a0707; /* Fundo vermelho escuro */
+    width: 100%; 
+    max-width: 950px; /* Largura máxima do rodapé */
+    height: 150px; /* Altura fixa para o rodapé */
+    border-radius: 0px 0px 16px 16px; /* Arredonda os cantos inferiores */
+}
+
+/* Estilo para o nav (barra de navegação) */
+nav{
+    margin-top: 10px; /* Espaço superior */
+    padding-top: 20px; /* Preenchimento superior */
+}
+
+/* Estilo para a lista não ordenada dentro do nav */
+nav ul{
+    display: flex; 
+    align-items: center; 
+    margin: 0; 
+    padding: 0; 
+}
+
+/* Estilo para cada item da lista no nav */
+nav ul li{
+    display: flex; 
+    list-style-type: none; /* Remove os marcadores de lista */
+    background-color: #5e1f28; /* Fundo de cada item com um tom de vermelho escuro */
+    padding: 8px; 
+    border-radius: 16px; 
+}
+
+/* Estilo para todos os itens de lista, exceto o primeiro */
+nav ul li:not(:first-child){
+    margin-left: 50px; 
+}
+
+/* Estilo para os links dentro dos itens de lista */
+nav ul li a{
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #e8ddbd; /* Define a cor dos links como bege claro */
+    outline: none; /* Remove o contorno do link */
+}
+
